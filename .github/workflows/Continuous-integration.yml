@@ -60,7 +60,7 @@ jobs:
       uses: stm32duino/actions/compile-examples@main
       with:
         board-pattern: "NUCLEO_L476RG"
-        libraries: "VL53L4ED"
+        libraries: "STM32duino VL53L4ED"
 
     # Use the output from the `Compilation` step
     - name: Compilation Errors
